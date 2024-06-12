@@ -1,0 +1,133 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    margin-right: 23px;
+    text-decoration: none;
+}
+
+.button-header {
+    background: #00FF2B;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.img-logo {
+    width: 100%;
+    max-width: 568px;
+    height: auto;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 2.5em;
+    line-height: 1.2;
+    color: #515151;
+    margin: 20px 0;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.5em;
+    line-height: 1.2;
+    color: #515151;
+    margin: 20px 0;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.2;
+    color: #848484;
+    margin: 20px 0;
+}
+
+.button-main {
+    background: #000CFF;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 34px;
+    color: #000000;
+}
+
+/* Media query for mobile view */
+@media (max-width: 900px) {
+    nav {
+        flex-direction: column;
+    }
+    
+    .link-header {
+        font-size: 20px;
+        margin: 5px 0;
+    }
+    
+    .button-header {
+        width: 100px;
+        height: 35px;
+        font-size: 18px;
+    }
+    
+    h1 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+    
+    h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    
+    p {
+        font-size: 18px;
+        line-height: 22px;
+        width: 100%;
+    }
+    
+    .button-main {
+        width: 200px;
+        height: 50px;
+        font-size: 22px;
+        line-height: 28px;
+    }
+}
